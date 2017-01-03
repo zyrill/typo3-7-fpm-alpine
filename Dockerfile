@@ -1,5 +1,5 @@
 FROM php:fpm-alpine
-MAINTAINER Dr. Philipp Krüger <philipp.krueger@core.de>
+MAINTAINER Dr. Philipp Krüger <p.a.c.krueger@gmail.com>
 
 # Set UID and GID
 RUN deluser www-data && addgroup -g 101 www-data && adduser -u 100 -D -s /bin/false -G www-data www-data
