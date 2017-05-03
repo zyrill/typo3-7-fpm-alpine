@@ -1,4 +1,4 @@
-FROM php:fpm-alpine
+FROM php:7.1.4-fpm-alpine
 MAINTAINER Dr. Philipp Krüger <p.a.c.krueger@gmail.com>
 
 # Set UID and GID
