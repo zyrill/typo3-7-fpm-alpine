@@ -46,7 +46,7 @@ RUN deluser www-data && addgroup -g 666 www-data && adduser -u 666 -D -s /bin/fa
 	&& pear install redis.tgz \
 	&& docker-php-ext-enable apcu redis \
 	&& rm -rf /tmp/pear/ \
-	&& apk del autoconf file gcc g++ imagemagick libc-dev libxml2-dev make musl-dev wget \
+	&& apk del autoconf file gcc g++ imagemagick libc-dev libxml2-dev make musl-dev wget
 
 # Configure volumes
 VOLUME /var/www/html/
