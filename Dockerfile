@@ -6,7 +6,7 @@ ENV TYPO_VERSION 7.6.21
 
 #refactor
 RUN deluser www-data && addgroup -g 666 www-data && adduser -u 666 -D -s /bin/false -G www-data www-data \
-	&& apk update && apk upgrade && apk add autoconf freetype freetype-dev file gcc g++ imagemagick libc-dev libjpeg-turbo libjpeg-turbo-dev libpcre3-dev libpng libpng-dev libxml2-dev make musl-dev openssl wget \
+	&& apk update && apk upgrade && apk add autoconf freetype freetype-dev file gcc g++ imagemagick libc-dev libjpeg-turbo libjpeg-turbo-dev libpng libpng-dev libxml2-dev make musl-dev openssl pcre-dev wget \
 	&& rm -rf /var/cache/apk/* \
 	&& mkdir -p /var/www/html \
 	&& cd /var/www/html\
