@@ -1,7 +1,7 @@
 # typo3-7-fpm-alpine
 Latest Typo3 7 LTS based on php:fpm-alpine:latest with opcode caching enabled for performance.
 
-Typo3 Version: 7.6.15
+Typo3 Version: 7.6.22
 
 Note: the vulnerabilities stem from the upstream Alpine image, so there's nothing that can be done here downstream. The affected packages are required by php plugins so it's not possible to simply remove them. Also, I've checked the findings and while critical, they should not impede the security of the Typo3 installation.
 
