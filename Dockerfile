@@ -1,8 +1,8 @@
-FROM php:7.2.3-fpm-alpine
+FROM php:7.2.9-fpm-alpine
 
 LABEL maintainer="Dr. Philipp Krüger <p.a.c.krueger@gmail.com>"
 
-ENV TYPO_VERSION 7.6.27
+ENV TYPO_VERSION 7.6.31
 
 #refactor
 RUN deluser www-data && addgroup -g 666 www-data && adduser -u 666 -D -s /bin/false -G www-data www-data \
