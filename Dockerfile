@@ -1,4 +1,4 @@
-FROM php:7.2.9-fpm-alpine
+FROM php:7.2.9-fpm-alpine3.8
 
 LABEL maintainer="Dr. Philipp Krüger <p.a.c.krueger@gmail.com>"
 
