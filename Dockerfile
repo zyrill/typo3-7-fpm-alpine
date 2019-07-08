@@ -1,6 +1,6 @@
 FROM php:7.3.6-fpm-alpine3.10
 
-LABEL maintainer="zyrill <zyrill@users.noreply.github.com>"
+LABEL maintainer="Dr. Philipp Kleine Jäger <zyrill@users.noreply.github.com>"
 
 ENV TYPO_VERSION 7.6.32
 
